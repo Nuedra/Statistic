@@ -171,7 +171,7 @@ plt.show()
 
 fig, axes = plt.subplots(2, 2, figsize=(10, 6))
 
-title_fs = 9  # размер шрифта заголовков
+title_fs = 9
 
 axes[0, 0].scatter(X, Y**3)
 axes[0, 0].set_xlabel(r"$X$")
